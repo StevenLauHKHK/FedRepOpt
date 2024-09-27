@@ -2,7 +2,7 @@
 
 This repository implements the model proposed in the ACCV 2024 paper:
 
-Kin Wai Lau, Yasar Abbas Ur Rehman, Pedro Porto Buarque de Gusmão, Lai-Man Po, Lan Ma, Yuyang Xie, **FedRepOpt: Gradient Re-parameterized Optimizers in Federated Learning** [[arXiv paper]](https://arxiv.org/abs/2409.15898)
+Kin Wai Lau, Yasar Abbas Ur Rehman, Pedro Porto Buarque de Gusmão, Lai-Man Po, Lan Ma, Yuyang Xie, **FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning** [[arXiv paper]](https://arxiv.org/abs/2409.15898)
 
 The implementation code is based on the **Re-parameterizing Your Optimizers rather than Architectures**, ICLR, 2023. For more information, please refer to the [link](https://github.com/DingXiaoH/RepOptimizers).
 
@@ -12,7 +12,7 @@ When using this code, kindly reference:
 
 ```
 @misc{lau2024fedrepoptgradientreparameterizedoptimizers,
-      title={FedRepOpt: Gradient Re-parameterized Optimizers in Federated Learning}, 
+      title={FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning}, 
       author={Kin Wai Lau and Yasar Abbas Ur Rehman and Pedro Porto Buarque de Gusmão and Lai-Man Po and Lan Ma and Yuyang Xie},
       year={2024},
       eprint={2409.15898},
