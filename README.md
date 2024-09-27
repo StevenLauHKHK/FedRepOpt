@@ -11,7 +11,7 @@ The implementation code is based on the **Re-parameterizing Your Optimizers rath
 When using this code, kindly reference:
 
 ```
-@misc{lau2024fedrepoptgradientreparameterizedoptimizers,
+@misc{lau2024fedrepoptgradientreparametrizedoptimizers,
       title={FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning}, 
       author={Kin Wai Lau and Yasar Abbas Ur Rehman and Pedro Porto Buarque de Gusmão and Lai-Man Po and Lan Ma and Yuyang Xie},
       year={2024},
