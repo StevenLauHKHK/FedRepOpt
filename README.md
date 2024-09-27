@@ -60,9 +60,9 @@ You can download our NIID Tiny ImageNet annotations files as follow:
 
 ## Preparation
 * Requirements:
-      * Python 3.8.0
-      * PyTorch 1.7.1
-      * Flower 1.3.0
+  * Python 3.8.0
+  * PyTorch 1.7.1
+  * Flower 1.3.0
 
 * Install the required packages:
 ```
