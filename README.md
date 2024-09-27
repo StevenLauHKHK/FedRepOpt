@@ -2,9 +2,7 @@
 
 This repository implements the model proposed in the ACCV 2024 paper:
 
-Kin Wai Lau, Yasar Abbas Ur Rehman, Pedro Porto Buarque de Gusmão, Lai-Man Po, Lan Ma, Yuyang Xie, **FedRepOpt: Gradient Re-parameterized Optimizers in Federated Learning**
-
-[[arXiv paper]](https://arxiv.org/abs/2409.15898)
+Kin Wai Lau, Yasar Abbas Ur Rehman, Pedro Porto Buarque de Gusmão, Lai-Man Po, Lan Ma, Yuyang Xie, **FedRepOpt: Gradient Re-parameterized Optimizers in Federated Learning** [[arXiv paper]](https://arxiv.org/abs/2409.15898)
 
 The implementation code is based on the **Re-parameterizing Your Optimizers rather than Architectures**, ICLR, 2023. For more information, please refer to the [link](https://github.com/DingXiaoH/RepOptimizers).
 
@@ -56,7 +54,7 @@ Pretrained on 5 local epoch and 1000 rounds with **cross-device NIID** setting
 ## Data Preparation
 You can download our NIID Tiny ImageNet annotations files as follow:
 - Cross silo NIID (&alpha;=0.1 in Dirichlet distribution, number of client=10) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Ep4Obqb1EYRItejHt4EZmQABCmYebaLf3-SxfUO51_SA0w?e=GWvPqJ)
-- Cross device NIID (&alpha;=0.1 in Dirichlet distribution, number of client=100) [link] (https://portland-my.sharepoint.com/:u:/g/personal/kinwailau6-c_my_cityu_edu_hk/EY2Gqx5p08hBqF9LR3ngxnYBsPfPuT9XUL3XM_nwhLWM8A?e=8hM2dU)
+- Cross device NIID (&alpha;=0.1 in Dirichlet distribution, number of client=100) [link](https://portland-my.sharepoint.com/:u:/g/personal/kinwailau6-c_my_cityu_edu_hk/EY2Gqx5p08hBqF9LR3ngxnYBsPfPuT9XUL3XM_nwhLWM8A?e=8hM2dU)
 
 * `data_splitter/tiny-imagenet_json_splitter_direchlet.py` script provides a tool for generating IID and NIID annotations for Tiny-ImageNet.
 
@@ -101,5 +99,6 @@ DATA.ANNOTATIONS_FED annotations_fed_alpha_0.1_clients_10 SEED 0
 * `num_clients_per_round` represents number of clients participating in the training for each round and `pool_size` represents number of dataset partitions (= number of total clients). If `num_clients_per_round` is set to 10 and `pool_size` is 10, all the clients participate in the training.
 * `round` represents the total number of FL rounds and `TRAIN.EPOCHS` represents the total number of training epochs for each clients.
 * `train_repopt_fl.sh` provides training command examples for all the models.
+* The evaluation results will be stored in `output/arch/server/log_rank0.txt`.
 
 
